@@ -1,0 +1,4 @@
+/usr/lib/x86_64-linux-gnu/gazebo-7/plugins/libGimbalSmall2dPlugin.so
+/usr/lib/x86_64-linux-gnu/gazebo-7/plugins/libArduCopterIRLockPlugin.so
+/usr/lib/x86_64-linux-gnu/gazebo-7/plugins/libArduPilotPlugin.so
+/usr/lib/x86_64-linux-gnu/gazebo-7/plugins/libArduCopterPlugin.so

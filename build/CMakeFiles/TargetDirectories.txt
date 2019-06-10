@@ -1,0 +1,10 @@
+/media/student/code2/ardupilot_gazebo/build/CMakeFiles/install.dir
+/media/student/code2/ardupilot_gazebo/build/CMakeFiles/list_install_components.dir
+/media/student/code2/ardupilot_gazebo/build/CMakeFiles/install/local.dir
+/media/student/code2/ardupilot_gazebo/build/CMakeFiles/install/strip.dir
+/media/student/code2/ardupilot_gazebo/build/CMakeFiles/ArduCopterIRLockPlugin.dir
+/media/student/code2/ardupilot_gazebo/build/CMakeFiles/ArduPilotPlugin.dir
+/media/student/code2/ardupilot_gazebo/build/CMakeFiles/edit_cache.dir
+/media/student/code2/ardupilot_gazebo/build/CMakeFiles/ArduCopterPlugin.dir
+/media/student/code2/ardupilot_gazebo/build/CMakeFiles/rebuild_cache.dir
+/media/student/code2/ardupilot_gazebo/build/CMakeFiles/GimbalSmall2dPlugin.dir
