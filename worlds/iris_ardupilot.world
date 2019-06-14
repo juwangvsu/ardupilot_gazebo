@@ -59,8 +59,8 @@ LOITER> mode LAND
           <contact_surface_layer>0.0</contact_surface_layer>
         </constraints>
       </ode>
-  <real_time_update_rate>200</real_time_update_rate>
-      <max_step_size>0.005</max_step_size>
+  <real_time_update_rate>0</real_time_update_rate>
+      <max_step_size>0.0025</max_step_size>
 <!--
   effect of real_time_update_rate: large number, >1 realtime factor
 	    max_step_size : large number, larger realtime factor
@@ -69,6 +69,9 @@ LOITER> mode LAND
 		1000, 0.005 rtf 3.4
 	 adding addtional iris does not change rtf much
 	but if max_step_size = 0.0025, changing number of uav slow it down.
+     however it slow down to rtf 0.3 after ardupilot sitl runs and connect
+	to gazebo, in both msi and thinkpad. seems the Arducoptor plugin
+	library is buggy.
   <real_time_factor>1</real_time_factor>
       <max_step_size>0.005</max_step_size>
 -->
