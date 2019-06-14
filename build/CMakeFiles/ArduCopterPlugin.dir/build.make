@@ -107,6 +107,7 @@ libArduCopterPlugin.so: /usr/lib/x86_64-linux-gnu/libgazebo_opende_ou.so
 libArduCopterPlugin.so: /usr/lib/x86_64-linux-gnu/libgazebo_math.so
 libArduCopterPlugin.so: /usr/lib/x86_64-linux-gnu/libgazebo_ccd.so
 libArduCopterPlugin.so: /usr/lib/x86_64-linux-gnu/libboost_thread.so
+libArduCopterPlugin.so: /usr/lib/x86_64-linux-gnu/libboost_signals.so
 libArduCopterPlugin.so: /usr/lib/x86_64-linux-gnu/libboost_system.so
 libArduCopterPlugin.so: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
 libArduCopterPlugin.so: /usr/lib/x86_64-linux-gnu/libboost_program_options.so
@@ -146,6 +147,7 @@ libArduCopterPlugin.so: /usr/lib/x86_64-linux-gnu/libgazebo_opende_ou.so
 libArduCopterPlugin.so: /usr/lib/x86_64-linux-gnu/libgazebo_math.so
 libArduCopterPlugin.so: /usr/lib/x86_64-linux-gnu/libgazebo_ccd.so
 libArduCopterPlugin.so: /usr/lib/x86_64-linux-gnu/libboost_thread.so
+libArduCopterPlugin.so: /usr/lib/x86_64-linux-gnu/libboost_signals.so
 libArduCopterPlugin.so: /usr/lib/x86_64-linux-gnu/libboost_system.so
 libArduCopterPlugin.so: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
 libArduCopterPlugin.so: /usr/lib/x86_64-linux-gnu/libboost_program_options.so
@@ -185,6 +187,7 @@ libArduCopterPlugin.so: /usr/lib/x86_64-linux-gnu/libgazebo_opende_ou.so
 libArduCopterPlugin.so: /usr/lib/x86_64-linux-gnu/libgazebo_math.so
 libArduCopterPlugin.so: /usr/lib/x86_64-linux-gnu/libgazebo_ccd.so
 libArduCopterPlugin.so: /usr/lib/x86_64-linux-gnu/libboost_thread.so
+libArduCopterPlugin.so: /usr/lib/x86_64-linux-gnu/libboost_signals.so
 libArduCopterPlugin.so: /usr/lib/x86_64-linux-gnu/libboost_system.so
 libArduCopterPlugin.so: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
 libArduCopterPlugin.so: /usr/lib/x86_64-linux-gnu/libboost_program_options.so
@@ -216,6 +219,7 @@ libArduCopterPlugin.so: /usr/lib/x86_64-linux-gnu/libgazebo_opende_ou.so
 libArduCopterPlugin.so: /usr/lib/x86_64-linux-gnu/libgazebo_math.so
 libArduCopterPlugin.so: /usr/lib/x86_64-linux-gnu/libgazebo_ccd.so
 libArduCopterPlugin.so: /usr/lib/x86_64-linux-gnu/libboost_thread.so
+libArduCopterPlugin.so: /usr/lib/x86_64-linux-gnu/libboost_signals.so
 libArduCopterPlugin.so: /usr/lib/x86_64-linux-gnu/libboost_system.so
 libArduCopterPlugin.so: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
 libArduCopterPlugin.so: /usr/lib/x86_64-linux-gnu/libboost_program_options.so

@@ -143,13 +143,7 @@ string
 -
 vector
 -
-boost/version.hpp
--
 boost/uuid/sha1.hpp
--
-boost/uuid/detail/sha1.hpp
--
-boost/filesystem.hpp
 -
 iomanip
 -
