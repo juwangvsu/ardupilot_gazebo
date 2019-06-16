@@ -1,7 +1,6 @@
 <?xml version="1.0" ?>
 
 <!--
-
 To run this demo, you must have following arducopter repo checked out:
 
 https://github.com/iche033/ardupilot/tree/gazebo_sitl_irlock
