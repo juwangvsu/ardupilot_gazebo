@@ -43,8 +43,22 @@ LOITER> mode LAND
 
 <sdf version="1.6">
   <world name="default">
+    <physics name='default_physics' default='0' type='ode'>
+      <max_step_size>0.001</max_step_size>
+      <real_time_factor>1</real_time_factor>
+      <real_time_update_rate>1000</real_time_update_rate>
+    </physics>
+
 <!--
+  effect of real_time_update_rate: large number, >1 realtime factor
+	    max_step_size : large number, larger realtime factor
+	for msi, 200, 0.005 give a good combination to have a close to 1 rtf
+		100, 0.005 rtf 0.6
+		1000, 0.005 rtf 3.4
+	 adding addtional iris does not change rtf much
+	but if max_step_size = 0.0025, changing number of uav slow it down.
 -->
+<!--
     <physics type="ode">
       <ode>
         <solver>
@@ -59,20 +73,12 @@ LOITER> mode LAND
           <contact_surface_layer>0.0</contact_surface_layer>
         </constraints>
       </ode>
-  <real_time_update_rate>200</real_time_update_rate>
+      <real_time_update_rate>200</real_time_update_rate>
       <max_step_size>0.005</max_step_size>
-<!--
-  effect of real_time_update_rate: large number, >1 realtime factor
-	    max_step_size : large number, larger realtime factor
-	for msi, 200, 0.005 give a good combination to have a close to 1 rtf
-		100, 0.005 rtf 0.6
-		1000, 0.005 rtf 3.4
-	 adding addtional iris does not change rtf much
-	but if max_step_size = 0.0025, changing number of uav slow it down.
-  <real_time_factor>1</real_time_factor>
-      <max_step_size>0.005</max_step_size>
--->
+      <real_time_factor>1</real_time_factor>
     </physics>
+-->
+
       <include>
       <uri>model://sun</uri>
     </include>
@@ -136,7 +142,7 @@ LOITER> mode LAND
     <model name="iris">
       <pose> 0 0 0 0 0 0 </pose>
       <include>
-        <uri>model://iris_with_standoffs_demo</uri>
+        <uri>model://iris_with_standoffs_demo_org</uri>
          <pose> 0 0 0 0 0 0 </pose>
       </include>
     </model>
