@@ -137,6 +137,13 @@ LOITER> mode LAND
 
       </link>
     </model>
+    <model name="apriltag1">
+      <pose> -2 1 0 0 0 0 </pose>
+      <include>
+        <uri>model://apriltag1</uri>
+         <pose> 0 0 0 0 0 0 </pose>
+      </include>
+    </model>
 
     <model name="iris">
       <pose> 0 0 0 0 0 0 </pose>

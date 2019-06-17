@@ -123,7 +123,10 @@ void GimbalSmall2dPlugin::Init()
 /////////////////////////////////////////////////
 void GimbalSmall2dPluginPrivate::OnStringMsg(ConstGzStringPtr &_msg)
 {
+	std::cout<< _msg << std::endl;
+	std::cout<< _msg->data() << std::endl;
   this->command = atof(_msg->data().c_str());
+	std::cout<< this->command << std::endl;
 }
 
 /////////////////////////////////////////////////
@@ -146,6 +149,10 @@ void GimbalSmall2dPlugin::OnUpdate()
     double error = angle - this->dataPtr->command;
     double force = this->dataPtr->pid.Update(error, dt);
     this->dataPtr->tiltJoint->SetForce(0, force);
+//	std::cout<<"angle = "<<angle << std::endl;
+//	std::cout<<"command = "<<this->dataPtr->command << std::endl;
+//	std::cout<<"error = "<<error << std::endl;
+//	std::cout<<"force = "<<force << std::endl;
     this->dataPtr->lastUpdateTime = time;
   }
 
