@@ -1,3 +1,7 @@
+git checkout gazebo7
+git push origin gazebo7
+
+---------------------------------
 fork from original to juwangvsu repo
 mkdir build; cmake ..; sudo make install
  
