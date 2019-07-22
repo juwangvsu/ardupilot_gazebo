@@ -1,6 +1,7 @@
 <?xml version="1.0" ?>
 
 <!--
+
 To run this demo, you must have following arducopter repo checked out:
 
 https://github.com/iche033/ardupilot/tree/gazebo_sitl_irlock
@@ -42,12 +43,26 @@ LOITER> mode LAND
 
 <sdf version="1.6">
   <world name="default">
-    <physics name='default_physics' default='0' type='ode'>
-      <max_step_size>0.001</max_step_size>
-      <real_time_factor>1</real_time_factor>
-      <real_time_update_rate>1000</real_time_update_rate>
-    </physics>
-
+<!--
+-->
+    <physics type="ode">
+      <ode>
+        <solver>
+          <type>quick</type>
+          <iters>200</iters>
+          <sor>1.0</sor>
+        </solver>
+<!--
+        <constraints>
+          <cfm>0.0</cfm>
+          <erp>0.9</erp>
+          <contact_max_correcting_vel>0.1</contact_max_correcting_vel>
+          <contact_surface_layer>0.0</contact_surface_layer>
+        </constraints>
+-->
+      </ode>
+  <real_time_update_rate>200</real_time_update_rate>
+      <max_step_size>0.005</max_step_size>
 <!--
   effect of real_time_update_rate: large number, >1 realtime factor
 	    max_step_size : large number, larger realtime factor
@@ -56,28 +71,10 @@ LOITER> mode LAND
 		1000, 0.005 rtf 3.4
 	 adding addtional iris does not change rtf much
 	but if max_step_size = 0.0025, changing number of uav slow it down.
--->
-<!--
-    <physics type="ode">
-      <ode>
-        <solver>
-          <type>quick</type>
-          <iters>200</iters>
-          <sor>1.0</sor>
-        </solver>
-        <constraints>
-          <cfm>0.0</cfm>
-          <erp>0.9</erp>
-          <contact_max_correcting_vel>0.1</contact_max_correcting_vel>
-          <contact_surface_layer>0.0</contact_surface_layer>
-        </constraints>
-      </ode>
-      <real_time_update_rate>200</real_time_update_rate>
+  <real_time_factor>1</real_time_factor>
       <max_step_size>0.005</max_step_size>
-      <real_time_factor>1</real_time_factor>
-    </physics>
 -->
-
+    </physics>
       <include>
       <uri>model://sun</uri>
     </include>
@@ -137,18 +134,11 @@ LOITER> mode LAND
 
       </link>
     </model>
-    <model name="apriltag1_emb">
-      <pose> -2 1 0 0 0 0 </pose>
-      <include>
-        <uri>model://apriltag1_emb</uri>
-         <pose> 0 0 0 0 0 0 </pose>
-      </include>
-    </model>
 
-    <model name="iris">
+    <model name="iris_demo">
       <pose> 0 0 0 0 0 0 </pose>
       <include>
-        <uri>model://iris_with_standoffs_demo_org</uri>
+        <uri>model://iris_with_standoffs_demo</uri>
          <pose> 0 0 0 0 0 0 </pose>
       </include>
     </model>
