@@ -107,7 +107,6 @@ libGimbalSmall2dPlugin.so: /usr/lib/x86_64-linux-gnu/libgazebo_opende_ou.so
 libGimbalSmall2dPlugin.so: /usr/lib/x86_64-linux-gnu/libgazebo_math.so
 libGimbalSmall2dPlugin.so: /usr/lib/x86_64-linux-gnu/libgazebo_ccd.so
 libGimbalSmall2dPlugin.so: /usr/lib/x86_64-linux-gnu/libboost_thread.so
-libGimbalSmall2dPlugin.so: /usr/lib/x86_64-linux-gnu/libboost_signals.so
 libGimbalSmall2dPlugin.so: /usr/lib/x86_64-linux-gnu/libboost_system.so
 libGimbalSmall2dPlugin.so: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
 libGimbalSmall2dPlugin.so: /usr/lib/x86_64-linux-gnu/libboost_program_options.so
@@ -147,7 +146,6 @@ libGimbalSmall2dPlugin.so: /usr/lib/x86_64-linux-gnu/libgazebo_opende_ou.so
 libGimbalSmall2dPlugin.so: /usr/lib/x86_64-linux-gnu/libgazebo_math.so
 libGimbalSmall2dPlugin.so: /usr/lib/x86_64-linux-gnu/libgazebo_ccd.so
 libGimbalSmall2dPlugin.so: /usr/lib/x86_64-linux-gnu/libboost_thread.so
-libGimbalSmall2dPlugin.so: /usr/lib/x86_64-linux-gnu/libboost_signals.so
 libGimbalSmall2dPlugin.so: /usr/lib/x86_64-linux-gnu/libboost_system.so
 libGimbalSmall2dPlugin.so: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
 libGimbalSmall2dPlugin.so: /usr/lib/x86_64-linux-gnu/libboost_program_options.so
@@ -187,7 +185,6 @@ libGimbalSmall2dPlugin.so: /usr/lib/x86_64-linux-gnu/libgazebo_opende_ou.so
 libGimbalSmall2dPlugin.so: /usr/lib/x86_64-linux-gnu/libgazebo_math.so
 libGimbalSmall2dPlugin.so: /usr/lib/x86_64-linux-gnu/libgazebo_ccd.so
 libGimbalSmall2dPlugin.so: /usr/lib/x86_64-linux-gnu/libboost_thread.so
-libGimbalSmall2dPlugin.so: /usr/lib/x86_64-linux-gnu/libboost_signals.so
 libGimbalSmall2dPlugin.so: /usr/lib/x86_64-linux-gnu/libboost_system.so
 libGimbalSmall2dPlugin.so: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
 libGimbalSmall2dPlugin.so: /usr/lib/x86_64-linux-gnu/libboost_program_options.so
@@ -219,7 +216,6 @@ libGimbalSmall2dPlugin.so: /usr/lib/x86_64-linux-gnu/libgazebo_opende_ou.so
 libGimbalSmall2dPlugin.so: /usr/lib/x86_64-linux-gnu/libgazebo_math.so
 libGimbalSmall2dPlugin.so: /usr/lib/x86_64-linux-gnu/libgazebo_ccd.so
 libGimbalSmall2dPlugin.so: /usr/lib/x86_64-linux-gnu/libboost_thread.so
-libGimbalSmall2dPlugin.so: /usr/lib/x86_64-linux-gnu/libboost_signals.so
 libGimbalSmall2dPlugin.so: /usr/lib/x86_64-linux-gnu/libboost_system.so
 libGimbalSmall2dPlugin.so: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
 libGimbalSmall2dPlugin.so: /usr/lib/x86_64-linux-gnu/libboost_program_options.so

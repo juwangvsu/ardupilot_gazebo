@@ -107,7 +107,6 @@ libArduPilotPlugin.so: /usr/lib/x86_64-linux-gnu/libgazebo_opende_ou.so
 libArduPilotPlugin.so: /usr/lib/x86_64-linux-gnu/libgazebo_math.so
 libArduPilotPlugin.so: /usr/lib/x86_64-linux-gnu/libgazebo_ccd.so
 libArduPilotPlugin.so: /usr/lib/x86_64-linux-gnu/libboost_thread.so
-libArduPilotPlugin.so: /usr/lib/x86_64-linux-gnu/libboost_signals.so
 libArduPilotPlugin.so: /usr/lib/x86_64-linux-gnu/libboost_system.so
 libArduPilotPlugin.so: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
 libArduPilotPlugin.so: /usr/lib/x86_64-linux-gnu/libboost_program_options.so
@@ -147,7 +146,6 @@ libArduPilotPlugin.so: /usr/lib/x86_64-linux-gnu/libgazebo_opende_ou.so
 libArduPilotPlugin.so: /usr/lib/x86_64-linux-gnu/libgazebo_math.so
 libArduPilotPlugin.so: /usr/lib/x86_64-linux-gnu/libgazebo_ccd.so
 libArduPilotPlugin.so: /usr/lib/x86_64-linux-gnu/libboost_thread.so
-libArduPilotPlugin.so: /usr/lib/x86_64-linux-gnu/libboost_signals.so
 libArduPilotPlugin.so: /usr/lib/x86_64-linux-gnu/libboost_system.so
 libArduPilotPlugin.so: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
 libArduPilotPlugin.so: /usr/lib/x86_64-linux-gnu/libboost_program_options.so
@@ -187,7 +185,6 @@ libArduPilotPlugin.so: /usr/lib/x86_64-linux-gnu/libgazebo_opende_ou.so
 libArduPilotPlugin.so: /usr/lib/x86_64-linux-gnu/libgazebo_math.so
 libArduPilotPlugin.so: /usr/lib/x86_64-linux-gnu/libgazebo_ccd.so
 libArduPilotPlugin.so: /usr/lib/x86_64-linux-gnu/libboost_thread.so
-libArduPilotPlugin.so: /usr/lib/x86_64-linux-gnu/libboost_signals.so
 libArduPilotPlugin.so: /usr/lib/x86_64-linux-gnu/libboost_system.so
 libArduPilotPlugin.so: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
 libArduPilotPlugin.so: /usr/lib/x86_64-linux-gnu/libboost_program_options.so
@@ -219,7 +216,6 @@ libArduPilotPlugin.so: /usr/lib/x86_64-linux-gnu/libgazebo_opende_ou.so
 libArduPilotPlugin.so: /usr/lib/x86_64-linux-gnu/libgazebo_math.so
 libArduPilotPlugin.so: /usr/lib/x86_64-linux-gnu/libgazebo_ccd.so
 libArduPilotPlugin.so: /usr/lib/x86_64-linux-gnu/libboost_thread.so
-libArduPilotPlugin.so: /usr/lib/x86_64-linux-gnu/libboost_signals.so
 libArduPilotPlugin.so: /usr/lib/x86_64-linux-gnu/libboost_system.so
 libArduPilotPlugin.so: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
 libArduPilotPlugin.so: /usr/lib/x86_64-linux-gnu/libboost_program_options.so
